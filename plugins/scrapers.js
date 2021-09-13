@@ -546,7 +546,7 @@ if (config.WORKTYPE == 'private') {
 
         if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORDS,MessageType.text);
         gis(match[1], async (error, result) => {
-            for (var i = 0; i < (result.length < 5 ? result.length : 5); i++) {
+            for (var i = 0; i < (result.length < 7 ? result.length : 7); i++) {
                 var get = got(result[i].url, {https: {rejectUnauthorized: false}});
                 var stream = get.buffer();
                 
@@ -608,7 +608,7 @@ if (config.WORKTYPE == 'private') {
 
 const vcard = 'BEGIN:VCARD\n' // saidali said
             + 'VERSION:3.0\n' 
-            + 'FN:nexusNw\n' //coded by saidali   not copy this
+            + 'FN:nexusNw \n' //coded by saidali   not copy this
             + 'ORG:script SAIDALI;\n' // the organization of the contact
             + 'TEL;type=CELL;type=VOICE;waid=918129624395:+91 8606759500\n' //created saidali
             + 'END:VCARD'
