@@ -3,17 +3,17 @@
     "description": "FILO  - re-edited from asena. World’s first UserBot made for WhatsApp.",
     "logo": "https://avatars.githubusercontent.com/u/88531428?v=4",
     "keywords": ["whatsapp", "userbot", "Asena", "WhatsAsena", "bot", "api", "ai"],
-    "repository": "https://github.com/afnanplk/lastpink",
+    "repository": "https://github.com/nexusNw/filo",
     "website":   "under maintenance",
     "success_url": "under maintenance",
     "stack": "container",
     "env": {
-        "ASENA_SESSION": {
+        "FILO_SESSION": {
             "description": "Qr.Js ile oluşturduğunuz özel session kodu. Type here yours Asena Session.",
             "required": true
         },
         "SUDO": {
-            "description": "Leave blank if you don't know how to use it! Sudo mode; Your number must be an international number. So you should have your number after the country code. Example: 1205xxxxxxxxx (USA number +1)",
+            "description": "Leave blank if you don't know how to use it! Sudo mode; Your number must be an international number. So you should have your number after the country code. Example:120××××××××××,0",
             "required": false
         },
         "LANGUAGE": {
